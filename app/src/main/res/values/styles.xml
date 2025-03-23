@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Базовая тема приложения. -->
+    <style name="Base.Theme.ArtApp" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="CustomAppTheme" parent="Base.Theme.ArtApp">
+        <item name="android:textColor">@color/customTextColor</item>
+        <item name="android:background">@color/customBackgroundColor</item>
+
+    </style>
+    <style name="ButtonStyle">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">62dp</item>
+        <item name="android:text">""</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+    <style name="TextStyle2">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+    <style name="Theme.ArtApp" parent="Base.Theme.ArtApp" />
+</resources>
